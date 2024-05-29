@@ -1,4 +1,7 @@
 
+# Autonomous Evolution of NN Architecture 
+
+In these two parts, we will employ [NEAT](https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf) (NeuroEvolution of Augmenting Topologies), an intriguing paradigm to solving complex reinforcement learning tasks.  In Part 1, we train an agent to beat a robust internal agent in the task of Slime Volleyball (forked from WANN workshop and David Ha).  In Part 2, we do the same, but instead implement backpropogation (using Jax) to solve in parameter space.  Thus evolution only modulates _architecture only_.
 
 # Part 1: Slime volleyball
 
