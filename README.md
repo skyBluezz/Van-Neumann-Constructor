@@ -12,7 +12,7 @@ In Part 2, we do the same, but instead implement backpropogation (using Jax) to 
 # Part 1: Slime volleyball
 
 ### Getting Started
-I found the most straightforward path was to maneuver the core source code of WANNrelease to work with the Slimevolley environment created by David. This provided a great toolkit to start and to minimize sources of error as I begin experiments.  Most of my code is in [slimevolley/trainingscripts](slimevolleygym/training_scripts), config.json.  Minor changes to neat.py, ind.py, slimevolley.py to allow the marriage between WANNrelease and slimevolley.  
+I found the most straightforward path was to maneuver the core source code of WANNrelease to work with the Slimevolley [environment](https://github.com/hardmaru/slimevolleygym). This provided a great toolkit to start and to minimize sources of error as I begin experiments.  Most of my code is in [slimevolley/trainingscripts](slimevolleygym/training_scripts), config.json.  Minor changes to neat.py, ind.py, slimevolley.py to allow the marriage between WANNrelease and slimevolley.  
 
 ### Reaching convergence
 Initial experiments experienced slow training, thus a few actions were taken to resolve this.
